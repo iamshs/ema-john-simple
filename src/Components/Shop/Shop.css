@@ -1,0 +1,19 @@
+.shop-conatiner{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+   
+}
+.product-conatiner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}
+.order-container{
+    margin-left: 5px;
+    padding: 5px 15px;
+    background-color: rgba(255, 153, 0, 0.3);;
+}
+.order-container h3 {
+    text-align: center;
+}
